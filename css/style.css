@@ -202,7 +202,6 @@ nav .nav__content ul li:hover{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    /* max-width: 1100px; */
     height: 756px;
     margin: 50px auto;
     justify-content: space-between;
@@ -400,23 +399,7 @@ input:focus{
         font-size: 28px;
         text-align: center;
     }
-    /* .footer__content {
-        width: 90%;
-    }
-    .footer__content h1{
-        font-size: 28px;
-    }
-    .footer__content__bottom{
-        height: 220px;
-    }
-    .footer__content__bottom .footer__text{
-        height: 200px;
-        width: 380px;
-    }
-    .footer__form {
-        width: 255px;
-        height: 200px;
-    } */
+
     .footer__content .footer__content__bottom{
         justify-content: center;
         width: 100%;
@@ -530,23 +513,3 @@ input:focus{
    .footer__content .footer__content__bottom .footer__form button{
     width: 220px;
 }
-/*  
-   .footer__content .footer__content__bottom .footer__form{
-    height: 200px;
-    text-align: center;
-   }
-   .footer__content .footer__content__bottom .footer__form__text{
-       margin: 0 auto;
-   } */
-}
-/* @media screen and (max-width: 900px) {
-   nav nav__content ul{ 
-       display: none;
-   }
-} */
-
-/* @media screen and (max-width: 1069px) {
-    .main{
-        height:2100px;
-    }
-} */
