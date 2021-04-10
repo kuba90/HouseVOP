@@ -1,0 +1,552 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav */
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #242B33;
+    display: flex;
+    align-items: center;
+}
+
+nav .nav__content{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+nav .nav__content img{
+    width: 135px;
+    height: 65px;
+}
+nav .nav__content ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#nav-menu{
+    position: absolute;
+    top: 70px; /*new*/
+    right: 20px;
+    width: 150px;
+    display: none;
+    margin-right: -170px;
+    padding: 20px 10px;
+    background-color: #242B33;
+    border: 3px solid #d4c17f;
+    color: #fff;
+    transition: all 0.7s; /*new*/
+}
+
+#nav-menu ul{
+    list-style: none;
+}
+#nav-menu ul li{
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+#nav-menu ul li:hover{
+    color: #d4c17f;
+}
+
+
+
+nav .nav__content ul li{
+    font-size: 14px;
+    color: #fff;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+nav .nav__content ul li:hover{
+    color: #d4c17f;
+}
+
+#burger-menu{
+    display: none;
+    height: 30px;
+    width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Hero */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    background: url(../assets/img/HeaderImage.png) no-repeat center / cover;
+}
+
+.hero__content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 576.85px;
+    height: 463px;
+}
+.hero .hero__content {
+    font-size: 48px;
+    font-family: 'Playfire Display';
+    text-align: center;
+    color: #D4C17F;
+}
+.hero .hero__content #mouse-icon{
+    margin: auto;
+}
+
+
+
+/* adress */
+.adress {
+    display: flex;
+    justify-content: space-between;
+}
+.adress span{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Raleway';
+}
+
+.adress #icon1{
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+.adress #icon2{
+    margin-right: 8px;
+}
+
+/* main */
+.main {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: #242B33;
+}
+
+/* testimonials */
+.testimonials {
+    margin: 139px auto;
+}
+.testimonials__inner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 830px;
+    height: 178px;
+    margin: 139px auto;
+}
+
+.testimonials__icons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 175px;
+    height: 195px;
+}
+.testimonials__icons .title {
+    margin: 50px 0;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+.testimonials__icons .title p {
+    font-size: 20px;
+}
+#Parks-Squares img{
+    width: 80px;
+    height: 80px;
+    
+}
+#Building img{
+    width: 80px;
+    height: 80px;
+}
+#Fouintain img{
+    width: 80px;
+    height: 80px;
+}
+#appartments img{
+    width: 100px;
+    height: 80px;
+}
+
+/* apartments */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.appartment{
+    background-color: #242B33;
+    width: 100%;
+    height: 900px;
+}
+.apartments{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* max-width: 1100px; */
+    height: 756px;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+
+.apartments .loft{
+    margin: auto;
+    position: relative;
+    width: 535px;
+    height: 320px;
+}
+
+.apartments .loft h2{
+    position: absolute;
+    color: #fff;
+    left: 50px;
+    bottom: 50px;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    line-height: 28px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Playfair Display';
+    color: #D4C17F;
+}
+
+.III {
+    width: 452px;
+    height: 444px;
+    position: absolute;
+    margin: 0 -250px;
+}
+
+.II{
+    width: 302px;
+    height: 431px;
+    position: absolute;
+    margin: -280px 1100px 0;
+}
+
+/* footer */
+footer{
+    display: flex;
+    width: 100%;
+    height: 460px;
+    background: url(../assets/img/FooterBg.png) no-repeat center / cover;
+}
+
+.footer__content{
+    margin: 0 auto;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1109px;
+    height: 221px;
+}
+.footer__content h1{
+    margin-top: 30px;
+    font-size: 36px;
+    padding: 0 0 50px;
+    font-weight: 700;
+    font-family: 'Playfair Display';
+    color: #D4C17F;
+}
+.footer__content__bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 135px;
+}
+.footer__form{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 530px;
+    height: 135px;
+    text-align: center;
+}
+.footer__text{
+    
+    align-items: flex-end;
+    padding: 11px 0 10px;
+    width: 535px;
+    height: 114px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    color: #fff;
+    line-height: 24px;
+    font-size: 16px;
+}
+input{
+    width: 255px;
+    height: 50px;
+    background: #ffffff;
+    color: #BEBEBE;
+    text-align: center;
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: 'Raleway';
+    opacity: 0.2;
+}
+
+input:focus{
+    opacity: 1;
+}
+.footer__form__text{
+    display: flex;
+    align-items: flex-end;
+    width: 255px;
+    height: 50px;
+    font-size: 13px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    line-height: 16px;
+    color: #fff;
+}
+.button {
+    width: 255px;
+    height:50px;
+    border-color:#D4C17F;
+    border-style:solid;
+    border-width:5px;
+    background:#D4C17F;
+    cursor:pointer;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1070px){
+    .appartment .apartments .loft{
+        
+            margin: 5px auto;
+            width: 350px;
+            height: 250px;
+    }
+    .appartment .apartments .loft img{
+        
+        margin: auto;
+        width: 350px;
+        height: 250px;
+}
+}
+
+@media screen and (max-width: 900px){
+    nav .nav__content ul{
+        display: none;
+    }
+    #burger-menu{
+        display: block !important;
+    }
+    
+    .main .testimonials .testimonials__inner{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 30px;
+        width: auto;
+        justify-content: center;
+    }
+    .main .testimonials .testimonials__inner .testimonials__icons{
+        margin: 20px;
+        font-size: 18px;
+    }
+
+    .appartment .apartments{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 1100px;
+        height: 756px;
+        margin: 50px auto;
+        justify-content: space-between;
+    }
+    .appartment .apartments .loft {
+        position: relative;
+        width: 330px;
+        height: 250px;
+        /* margin: 0 60px; */
+    }
+    .appartment .apartments .loft img{
+        width: 330px;
+        height: 250px;
+        margin: 20px auto;
+    }
+    .appartment h1{
+        font-size: 28px;
+        text-align: center;
+    }
+    /* .footer__content {
+        width: 90%;
+    }
+    .footer__content h1{
+        font-size: 28px;
+    }
+    .footer__content__bottom{
+        height: 220px;
+    }
+    .footer__content__bottom .footer__text{
+        height: 200px;
+        width: 380px;
+    }
+    .footer__form {
+        width: 255px;
+        height: 200px;
+    } */
+    .footer__content .footer__content__bottom{
+        justify-content: center;
+        width: 100%;
+        height: 210px;
+        display: block;
+       }
+       .footer__content .footer__content__bottom .footer__text{
+        height: 200px;
+        width: 380px;
+       }
+       .footer__content h1{
+           font-size: 18px;
+           margin: 0 auto;
+           text-align: center;
+       }
+       .footer__content .footer__content__bottom .footer__text{
+           font-size: 12px;
+           width: auto;
+           text-align: center;
+       }
+       .footer__content .footer__content__bottom .footer__form{
+           margin:  0 auto;
+       }
+       footer{
+           height: 600px;
+       }
+       .footer__content .footer__content__bottom .footer__form__text{
+           align-items: center;
+       }
+
+}
+
+
+@media screen and (max-width: 660px){
+
+    .main {
+        height: 1200px;
+    }
+    .main .testimonials__inner{
+        margin: 50px auto;
+    }
+    .hero .hero__content{
+        display: flex;
+    }
+    .hero .hero__content h1{
+        flex-direction: column;
+        font-size: 28px;
+    }
+    .hero .hero__content #mouse-icon{
+        margin: auto;
+    }
+    .hero .hero__content .adress{
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+    }
+    .hero .hero__content .adress .phone{
+        margin: 10px auto 0;
+    }
+   .appartment{
+       height: 1250px;
+   }
+   .appartment .apartments{
+       margin: 10px auto;
+   }
+   .appartment .apartments .loft{
+       margin: 15px auto;
+   }
+   .appartment .apartments .loft h2{
+    font-size: 14px;
+}
+   .appartment h1{
+       font-size: 28px;
+       text-align: center;
+   }
+    .footer__content .footer__content__bottom{
+    justify-content: center;
+    width: 100%;
+    height: 210px;
+    display: block;
+   }
+   .footer__content .footer__content__bottom .footer__text{
+    height: 200px;
+    width: 380px;
+   }
+   .footer__content h1{
+       font-size: 18px;
+       margin: 0 auto;
+       text-align: center;
+   }
+   .footer__content .footer__content__bottom .footer__text{
+       font-size: 12px;
+       width: auto;
+       text-align: center;
+   }
+   .footer__content .footer__content__bottom .footer__form{
+       margin:  0 auto;
+       display: block;
+       width: 100%;
+   }
+   footer{
+       height: 600px;
+   }
+   .footer__content .footer__content__bottom .footer__form__text{
+       align-items: center;
+       margin: 0 auto;
+   }
+   .footer__content .footer__content__bottom .footer__form input{
+       width: 220px;
+   }
+   .footer__content .footer__content__bottom .footer__form button{
+    width: 220px;
+}
+/*  
+   .footer__content .footer__content__bottom .footer__form{
+    height: 200px;
+    text-align: center;
+   }
+   .footer__content .footer__content__bottom .footer__form__text{
+       margin: 0 auto;
+   } */
+}
+/* @media screen and (max-width: 900px) {
+   nav nav__content ul{ 
+       display: none;
+   }
+} */
+
+/* @media screen and (max-width: 1069px) {
+    .main{
+        height:2100px;
+    }
+} */
